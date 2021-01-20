@@ -15,8 +15,18 @@ function MainPage(){
                     <h2 className="intro">Software Engineer</h2>
                     <br></br>
                     <h3>Something motto like</h3>
+                    <br></br>
+                    <br></br>
+                    <Link
+                    to="about"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}>
+                    </Link> 
                 </div>
             </div>
         </div>
-    )
+    ); 
 }
+
+export default MainPage;

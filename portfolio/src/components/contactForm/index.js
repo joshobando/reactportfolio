@@ -1,6 +1,6 @@
 import React from "react";
 
-function contactForm(){
+function ContactForm(){
 
     return(
         <div className="myForm">
@@ -24,4 +24,4 @@ function contactForm(){
     )
 }
 
-export default contactForm();
+export default ContactForm;
