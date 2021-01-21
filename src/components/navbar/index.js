@@ -6,9 +6,10 @@ function NavBar(){
     return(
         <nav className="navbar navbar-expand-md">
             <button 
-            className="navbar=toggler"
-            type=""
+            className="navbar-toggler"
+            type="button"
             data-toggle="collapse"
+            data-target="#navbarNavMenu"
             aria-controls="navbarNavMenu"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -37,10 +38,10 @@ function NavBar(){
                         ABOUT
                     </Link>
                 </li>
-                <li className="nav-item navbar-text">
+                <li className="nav-item">
                     <Link
                     to="/"
-                    className="nav-link"
+                    className="nav-brand"
                     activeClass="active"
                     spy={true}
                     smooth={true}>

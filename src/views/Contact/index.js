@@ -9,7 +9,7 @@ function Contact(){
             <div className="row contact-row">
                 <div className="formDiv" id="contact">
                     <h3 className="viewTitle" id="contactTitle">
-                        GET IN TOUCH
+                        LET'S TALK
                     </h3>
 
                     <hr></hr>

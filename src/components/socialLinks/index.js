@@ -14,11 +14,13 @@ function socialLinks() {
             <div className="row">
             <div className="col-sm"/>
             <div className="col-sm text-center">
-                <a href="https://github.com/joshobando" target="_blank"> <i class="fab fa-github-square fa-3x"/></a>
-                <a href="https://rb.gy/zhruz6" target="_blank"> <i class="fab fa-linkedin fa-3x"/></a>
+                <a href="https://github.com/joshobando" target="_blank"><i class="fab fa-github-square fa-3x"/></a>
+                <a href="https://rb.gy/zhruz6" target="_blank"><i class="fab fa-linkedin fa-3x"/></a>
             </div>
             <div className="col-sm"/>
             </div>
         </div>
     )
 }
+
+export default socialLinks;

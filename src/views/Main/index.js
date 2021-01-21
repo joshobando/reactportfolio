@@ -8,7 +8,7 @@ function MainPage(){
         <div className="row" id="/">
             <NavBar/>
             <div className="col-mid">
-                <div className="mobile=image"></div>
+                <div className="mobile-image"></div>
                 <div className="intro-text alignCenter">
                     <h2 className="mobile-title">JOSHUA OBANDO</h2>
                     <br></br>

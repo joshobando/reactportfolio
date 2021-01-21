@@ -5,8 +5,8 @@ function ContactForm(){
     return(
         <div className="myForm">
             <form id="email-form" action="https://formspress.io/xknqqwdl" method="POST">
-                <div>
-                    <label for="form-group">Name</label>
+                <div className="form-group">
+                    <label for="form-name">Name</label>
                     <input type="text" name="name" className="form-control" id="form-name" placeholder="Your name"></input>
                 </div>
                 <div className="form-group">
@@ -18,7 +18,7 @@ function ContactForm(){
                     <textarea className="form-control" name="messageBody" id="form-body" rows="3"></textarea>
                 </div>
             </form>
-            <center><button type="submit" className="btn btn-secondary btn sm" id="submit">SUBMIT</button></center>
+            <center><button type="submit" className="btn btn-secondary btn-sm" id="submit">SUBMIT</button></center>
             <p id="form-status"></p>
         </div>
     )
