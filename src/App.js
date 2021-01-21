@@ -1,11 +1,11 @@
-import React from "react"
+import React from "react";
 import logo from './logo.svg';
 import './App.css';
-import Main from "../src/views/Main";
-// import Projects from "./views/";
-import Resume from "../src/views/Resume";
-import About from '../src/views/About';
-import Contact from '../src/views/Contact';
+import Main from "./views/Main";
+import Projects from "./views/";
+import Resume from "./views/Resume";
+import About from './views/About';
+import Contact from './views/Contact';
 
 function App() {
   return (
