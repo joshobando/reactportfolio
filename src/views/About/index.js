@@ -15,7 +15,7 @@ function About(){
                     <h3 className="viewTitle" id="aboutTitle">ABOUT</h3>
                     <div className="row align-self-center bioText">
                         <p className="bio">i need to make money</p>
-                        <p className="bio"><span className="skillHeader">SKills that I've attained</span>
+                        <p className="bio"><span className="skillHeader">SKills that I've attained</span></p>
                             <ul className="skillList text-center">
                                 <li className="skill">JavaScript</li>
                                 <li className="skill">ReactJS</li>
@@ -24,7 +24,6 @@ function About(){
                                 <li className="skill">Express</li>
                                 <li className="skill">SQL</li>
                             </ul>
-                        </p>
                         <p className="bio"></p>
                     </div>
                 </div>

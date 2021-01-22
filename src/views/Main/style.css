@@ -55,7 +55,7 @@ html{
 
 .readMore:hover{
     background-color: olive;
-    color: darkgray;
+    color: black;
 }
 
 @media (max-width: 767px){

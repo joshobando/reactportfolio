@@ -2,8 +2,8 @@ import React from "react";
 import "./style.css";
 import { Link } from "react-scroll";
 
-function NavBar(){
-    return(
+function NavBar() {
+    return (
         <nav className="navbar navbar-expand-md">
             <button 
             className="navbar-toggler"
@@ -16,9 +16,12 @@ function NavBar(){
                 >
                 <i className="fas fa-bars fa-lg"></i>
             </button>
-            <div className="collapse navbar-collapse justify-content-center" id="navbarNavMenu">
+            <div 
+            className="collapse navbar-collapse justify-content-center" 
+            id="navbarNavMenu"
+            >
             <ul className="navbar-nav">
-                <li className="nav-item navbar-text">
+                {/* <li className="nav-item navbar-text">
                     <Link
                     to="projects"
                     className="nav-link"
@@ -27,14 +30,15 @@ function NavBar(){
                     smooth={true}>
                         PROJECTS
                     </Link>
-                </li>
+                </li> */}
                 <li className="nav-item navbar-text">
                     <Link
                     to="about"
                     className="nav-link"
                     activeClass="active"
                     spy={true}
-                    smooth={true}>
+                    smooth={true}
+                    >
                         ABOUT
                     </Link>
                 </li>
@@ -44,7 +48,8 @@ function NavBar(){
                     className="nav-brand"
                     activeClass="active"
                     spy={true}
-                    smooth={true}>
+                    smooth={true}
+                    >
                         JOSHUA OBANDO
                     </Link>
                 </li>
@@ -54,7 +59,8 @@ function NavBar(){
                     className="nav-link"
                     activeClass="active"
                     spy={true}
-                    smooth={true}>
+                    smooth={true}
+                    >
                         RESUME
                     </Link>
                 </li>
@@ -64,7 +70,8 @@ function NavBar(){
                     className="nav-link"
                     activeClass="active"
                     spy={true}
-                    smooth={true}>
+                    smooth={true}
+                    >
                         CONTACT
                     </Link>
                 </li>

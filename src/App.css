@@ -46,7 +46,7 @@
 }
 html,body,#app,#app>div{
   height: 100%;
-  background-color: darkgray;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
