@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function socialLinks() {
+function SocialLinks() {
     return(
         <div className="row">
             <div className="row">
@@ -14,8 +14,8 @@ function socialLinks() {
             <div className="row">
             <div className="col-sm"/>
             <div className="col-sm text-center">
-                <a href="https://github.com/joshobando" target="_blank"><i class="fab fa-github-square fa-3x"/></a>
-                <a href="https://rb.gy/zhruz6" target="_blank"><i class="fab fa-linkedin fa-3x"/></a>
+                <a href="https://github.com/joshobando" target="_blank"><i className="fab fa-github-square fa-3x"/></a>
+                <a href="https://rb.gy/zhruz6" target="_blank"><i className="fab fa-linkedin fa-3x"/></a>
             </div>
             <div className="col-sm"/>
             </div>
@@ -23,4 +23,4 @@ function socialLinks() {
     )
 }
 
-export default socialLinks;
+export default SocialLinks;

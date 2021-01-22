@@ -1,13 +1,13 @@
-.email{
-    margin-top: 4vh;
-    padding: 7px;
+.viewFour{
+    background-color: lightgrey;
 }
 
-.fab{
-    margin: 12px;
-    color: darkgray;
+#resumeTitle{
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    padding: 0;
 }
 
-.fab:hover{
+h3#resumeTitle:hover{
     color: olive;
 }

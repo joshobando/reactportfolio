@@ -1,6 +1,6 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm";
-import socialLinks from "../../components/socialLinks";
+import SocialLinks from "../../components/socialLinks";
 import "./style.css";
 
 function Contact(){
@@ -13,7 +13,8 @@ function Contact(){
                     </h3>
 
                     <hr></hr>
-                    <socialLinks/>
+                    {/* <ContactForm/> */}
+                    <SocialLinks/>
                 </div>
             </div>
         </div>

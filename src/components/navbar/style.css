@@ -21,12 +21,12 @@
     padding-left: 20px;
     padding-right: 20px;
     letter-spacing: 2px;
-    color: wheat;
+    color: olive;
     font-family: "Bebas Neue" sans-serif;
 }
 
 .fa-bars{
-    color: wheat
+    color: olive
 }
 button.navbar-toggler{
     border-style: hidden;
