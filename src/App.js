@@ -1,24 +1,25 @@
-import React from "react";
-// import logo from './logo.svg';
-import './App.css';
-import Main from "./views/Main";
-// import Projects from "./views/";
-import Resume from "./views/Resume";
-import About from './views/About';
-import Contact from './views/Contact';
+import React, { Component } from 'react';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import About from './Components/About';
+import Resume from './Components/Resume';
+import Contact from './Components/Contact';
+import Portfolio from './Components/Portfolio';
 
-function App() {
-  return (
-    <div className="App">
-      <div className="wrapper">
-          <Main/>
-          {/* <Projects/> */}
-          <About/>
-          <Resume/>
-          <Contact/>
+class App extends Component {
+
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <About />
+        <Resume />
+        <Portfolio />
+        <Contact />
+        <Footer />
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
